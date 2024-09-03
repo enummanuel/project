@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Include Header -->
+    <div id="header-container"></div>
+
+    <div class="container mt-5">
+        <h2>Dashboard</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="course-progress.html" class="btn btn-primary btn-block">Course Progress</a>
+            </div>
+            <div class="col-md-4">
+                <a href="notifications.html" class="btn btn-primary btn-block">Notifications</a>
+            </div>
+            <div class="col-md-4">
+                <a href="calendar.html" class="btn btn-primary btn-block">Calendar</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="todo.html" class="btn btn-primary btn-block">To-Do List</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="messages.html" class="btn btn-primary btn-block">Messages</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="activity.html" class="btn btn-primary btn-block">Recent Activity</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="gamification.html" class="btn btn-primary btn-block">Gamification</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="recommendations.html" class="btn btn-primary btn-block">Recommendations</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="file-repository.html" class="btn btn-primary btn-block">File Repository</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="forums.html" class="btn btn-primary btn-block">Forums</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="analytics.html" class="btn btn-primary btn-block">Analytics</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="resource-center.html" class="btn btn-primary btn-block">Resource Center</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="feedback.html" class="btn btn-primary btn-block">Feedback</a>
+            </div>
+            <div class="col-md-4 mt-3">
+                <a href="profile.html" class="btn btn-primary btn-block">User Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h3>About Our Platform</h3>
+                    <p>Our e-learning platform offers a wide range of courses to help you improve your skills and knowledge. Join us today to start your learning journey!</p>
+                </div>
+                <div class="footer-right">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="pages/contact.html">Contact Us</a></li>
+                        <li><a href="pages/blog.html">Blog</a></li>
+                        <li><a href="pages/help.html">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+
+    <script src="../js/script.js"></script>
+    <script>
+        document.getElementById('header-container').innerHTML = '<object type="text/html" data="../header.html" ></object>';
+        document.getElementById('footer-container').innerHTML = '<object type="text/html" data="../footer.html" ></object>';
+    </script>
+</body>
+</html>
